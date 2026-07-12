@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f7f1e8;
+    font-family:'Poppins',sans-serif;
+    color:#5d5147;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+    padding:40px;
+}
+
+.paper{
+
+    max-width:760px;
+    background:#fffdf9;
+
+    padding:60px;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+}
+
+.small{
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:#9b8f84;
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+h1,h2{
+    font-family:'Playfair Display',serif;
+}
+
+h1{
+    font-size:52px;
+    margin-bottom:35px;
+}
+
+h2{
+    margin-top:40px;
+    text-align:center;
+    color:#8b6b55;
+}
+
+p{
+    line-height:2;
+    margin:16px 0;
+    font-size:17px;
+}
+
+.mad{
+    color:#b54848;
+    font-weight:700;
+}
+
+.divider{
+    width:90px;
+    height:2px;
+    background:#d6c2aa;
+    margin:35px auto;
+}
+
+.quote{
+    margin-top:35px;
+    font-style:italic;
+    text-align:center;
+    color:#8a7766;
+    font-size:18px;
+}
+
+.ending{
+    text-align:center;
+}
+
+.signature{
+    margin-top:45px;
+    text-align:right;
+    font-style:italic;
+    color:#8f8175;
+}
+
+@media(max-width:700px){
+
+.paper{
+    padding:35px;
+}
+
+h1{
+    font-size:38px;
+}
+
+p{
+    font-size:15px;
+}
+
+}
